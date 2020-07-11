@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    display: inline-block !important;
+    width: 100px;
+    font-size: 3em;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+h2{
+    display: inline-block !important;
+    width: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        width: 75px;
+        font-size: 2em;
+    }
+    h2 {
+        width: 30px;
+    }
+    #btn {
+        font-size: medium;
+        width: 40px !important;
+        border-radius: 2px;
+    }
+    #btn1{
+        font-size: medium;
+        width: 40px !important;
+        border-radius: 2px;
+    }
+    #btn2{
+        font-size: medium;
+        width: 40px;
+        border-radius: 2px;
+    }
+    #lap {
+        font-size: medium;
+        width: 40px !important;
+        
+        border-radius: 2px;
+    }
+ }
+
+#btn {
+    font-size: large;
+    color: #ffffff;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: rgb(35, 170, 35);
+}
+
+#btn1 {
+    font-size: large;
+    color: #ffffff;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+#btn1:hover {
+    background-color: rgb(238, 29, 29);
+}
+
+#btn2 {
+    font-size: large;
+    color: #ffffff;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+#lap {
+    font-size: large;
+    color: #ffffff;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
